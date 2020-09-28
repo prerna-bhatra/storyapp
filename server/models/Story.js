@@ -5,13 +5,13 @@ const Schema = mongoose.Schema;
 const Story=mongoose.model('Story',
 {
 
-    /* userFrom: {
+    userFrom: {
         type: Schema.Types.ObjectId,
         ref: 'User'
         /*
      here you set the author ID from the Author colection,so you can reference it
-        
-    },*/
+        */
+    },
     descr: {
         type:String,
        required:true
