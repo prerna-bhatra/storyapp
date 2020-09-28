@@ -84,13 +84,16 @@ class AddStory extends Component {
 			    </div>
 			    <div>
 			    	
-			    		<textarea placeholder="Type story here" onChange={(event) => {this.setState({descr:event.target.value})}} />
+			    		<textarea placeholder="Type or Paset story here ,In a rough way the short story writer is to the novelist as a cabinetmaker is to a house carpenter– Annie Proulx" onChange={(event) => {this.setState({descr:event.target.value})}} />
 			    </div>
 			    <div>
 			    	
 			    		 <input type="file" style={{display:'none'}}  onChange={this.fileChangeHandler} ref={chooseFile => this.chooseFile = chooseFile} accept="image/"/>
 			    </div>
 			    <div>
+			    <div>
+			    <label>Choose a Cover image for your story</label>
+			   </div>
 			    		  <button id="imgbtn"  onClick={() => this.chooseFile.click()}>
 			                                            +
 			                                       </button>
