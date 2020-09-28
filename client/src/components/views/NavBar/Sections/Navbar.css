@@ -7,6 +7,10 @@
   box-shadow: 0 0 30px #f3f1f1;
   background-color: white;
 }
+.logo
+{
+  width: 10px;
+}
 
 .menu__logo {
   width: 150px;
